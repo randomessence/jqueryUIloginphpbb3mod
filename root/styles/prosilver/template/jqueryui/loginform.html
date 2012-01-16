@@ -1,0 +1,32 @@
+    <div id="loginfromui" class="" style="display: none;">
+       <div id="dialog" class="" title="Welcome Back, we have missed you!">
+          <form method="post" class="" action="{S_LOGIN_ACTION}">
+             <fieldset class="">      
+          <p>
+             <span class="ui-icon ui-icon-circle-arrow-e" style="float:left; margin:0px 7px 50px 0px;"></span>
+             Username
+                </p>
+          <p>
+             <input class="ui-state-default ui-corner-all" id="username" name="username" size="" value="" title="Please enter your username here" type="text"/>
+                </p>
+          <p>
+             <span class="ui-icon ui-icon-circle-arrow-e" style="float:left; margin:0px 7px 50px 0px;"></span>
+             Password
+                </p>
+          <p>   
+             <input class="ui-state-default ui-corner-all" id="password" name="password" size="" value="" title="Please enter your password here" type="password"/>
+                </p>
+          <p class="uibutton"><input type="submit" name="login" value="{L_LOGIN}"/>{S_LOGIN_REDIRECT}</p>
+       <!-- IF S_AUTOLOGIN_ENABLED -->
+        <p>Remember me?&nbsp;<input type="checkbox" name="autologin" id="autologin"/></p>
+        <!-- ENDIF -->
+          <p>
+             <a class="" title="Use this link to have your account details sent to the email you registered with." href="ucp.php?mode=sendpassword">Forgot your password?</a>
+                </p>
+          <p>
+             <a class="" title="If you have not received your activation email please check your spam folder before using this link to have it re-sent using this link." href="ucp.php?mode=resend_act">Resend Activation Email</a>
+                </p>
+             </fieldset>
+           </form>
+        </div>
+    </div>
