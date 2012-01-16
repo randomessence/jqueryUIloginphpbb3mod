@@ -82,8 +82,8 @@
 		</open>
 		<open src="styles/prosilver/template/overall_header.html">
 			<edit>
-				<find><![CDATA[<script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/forum_fn.js"></script>]]></find>
-				<action type="after-add"><![CDATA[<!-- INCLUDE jqueryui/jqueryui.html -->
+				<find><![CDATA[</head>]]></find>
+				<action type="before-add"><![CDATA[<!-- INCLUDE jqueryui/jqueryui.html -->
 ]]></action>
 			</edit>
 			<edit>
