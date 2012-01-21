@@ -13,65 +13,32 @@
 				<username><![CDATA[randomessence]]></username>
 			</author>
 		</author-group>
-		<mod-version>1.0.0</mod-version>
+		<mod-version>1.0.5</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
 			<target-version>3.0.10</target-version>
 		</installation>
+		<history>
+			<entry>
+				<date>2012-01-14</date>
+				<rev-version>1.0.0</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[initial working release]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-01-21</date>
+				<rev-version>1.0.5</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[tweaked code and install.xml]]></change>
+				</changelog>
+			</entry>
+		</history>
 	</header>
 	<action-group>
 		<copy>
-			<file from="root/js/jquery/jquery-1.7.1.min.js" to="js/jquery/jquery-1.7.1.min.js"/>
-			<file from="root/js/jqueryui/js/jquery-ui-1.8.17.custom.min.js" to="js/jqueryui/js/jquery-ui-1.8.17.custom.min.js"/>
-			<file from="root/js/jqueryui/css/black-tie/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/black-tie/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/black-tie/images/*.*" to="js/jqueryui/css/black-tie/images/*.*"/>
-			<file from="root/js/jqueryui/css/blitzer/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/blitzer/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/blitzer/images/*.*" to="js/jqueryui/css/blitzer/images/*.*"/>
-			<file from="root/js/jqueryui/css/cupertino/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/cupertino/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/cupertino/images/*.*" to="js/jqueryui/css/cupertino/images/*.*"/>
-			<file from="root/js/jqueryui/css/dark-hive/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/dark-hive/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/dark-hive/images/*.*" to="js/jqueryui/css/dark-hive/images/*.*"/>
-			<file from="root/js/jqueryui/css/dot-luv/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/dot-luv/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/dot-luv/images/*.*" to="js/jqueryui/css/dot-luv/images/*.*"/>
-			<file from="root/js/jqueryui/css/eggplant/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/eggplant/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/eggplant/images/*.*" to="js/jqueryui/css/eggplant/images/*.*"/>
-			<file from="root/js/jqueryui/css/excite-bike/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/excite-bike/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/excite-bike/images/*.*" to="js/jqueryui/css/excite-bike/images/*.*"/>
-			<file from="root/js/jqueryui/css/flick/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/flick/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/flick/images/*.*" to="js/jqueryui/css/flick/images/*.*"/>
-			<file from="root/js/jqueryui/css/hot-sneaks/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/hot-sneaks/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/hot-sneaks/images/*.*" to="js/jqueryui/css/hot-sneaks/images/*.*"/>
-			<file from="root/js/jqueryui/css/humanity/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/humanity/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/humanity/images/*.*" to="js/jqueryui/css/humanity/images/*.*"/>
-			<file from="root/js/jqueryui/css/le-frog/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/le-frog/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/le-frog/images/*.*" to="js/jqueryui/css/le-frog/images/*.*"/>
-			<file from="root/js/jqueryui/css/mint-choc/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/mint-choc/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/mint-choc/images/*.*" to="js/jqueryui/css/mint-choc/images/*.*"/>
-			<file from="root/js/jqueryui/css/overcast/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/overcast/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/overcast/images/*.*" to="js/jqueryui/css/overcast/images/*.*"/>
-			<file from="root/js/jqueryui/css/pepper-grinder/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/pepper-grinder/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/pepper-grinder/images/*.*" to="js/jqueryui/css/pepper-grinder/images/*.*"/>
-			<file from="root/js/jqueryui/css/redmond/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/redmond/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/redmond/images/*.*" to="js/jqueryui/css/redmond/images/*.*"/>
-			<file from="root/js/jqueryui/css/smoothness/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/smoothness/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/smoothness/images/*.*" to="js/jqueryui/css/smoothness/images/*.*"/>
-			<file from="root/js/jqueryui/css/south-street/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/south-street/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/south-street/images/*.*" to="js/jqueryui/css/south-street/images/*.*"/>
-			<file from="root/js/jqueryui/css/start/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/start/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/start/images/*.*" to="js/jqueryui/css/start/images/*.*"/>
-			<file from="root/js/jqueryui/css/sunny/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/sunny/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/sunny/images/*.*" to="js/jqueryui/css/sunny/images/*.*"/>
-			<file from="root/js/jqueryui/css/swanky-purse/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/swanky-purse/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/swanky-purse/images/*.*" to="js/jqueryui/css/swanky-purse/images/*.*"/>
-			<file from="root/js/jqueryui/css/trontastic/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/trontastic/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/trontastic/images/*.*" to="js/jqueryui/css/trontastic/images/*.*"/>
-			<file from="root/js/jqueryui/css/ui-darkness/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/ui-darkness/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/ui-darkness/images/*.*" to="js/jqueryui/css/ui-darkness/images/*.*"/>
-			<file from="root/js/jqueryui/css/ui-lightness/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/ui-lightness/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/ui-lightness/images/*.*" to="js/jqueryui/css/ui-lightness/images/*.*"/>
-			<file from="root/js/jqueryui/css/vader/jquery-ui-1.8.17.custom.css" to="js/jqueryui/css/vader/jquery-ui-1.8.17.custom.css"/>
-			<file from="root/js/jqueryui/css/vader/images/*.*" to="js/jqueryui/css/vader/images/*.*"/>
+			<file from="root/*.*" to="*.*"/>
 			<file from="root/styles/prosilver/template/jqueryui/*.*" to="styles/prosilver/template/jqueryui/*.*"/>
 		</copy>
 		<open src="styles/prosilver/template/overall_footer.html">
