@@ -6,14 +6,14 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.7]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.]]></description>
 		<author-group>
 			<author>
 				<username><![CDATA[randomessence]]></username>
 			</author>
 		</author-group>
-		<mod-version>1.0.6</mod-version>
+		<mod-version>1.0.7</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
@@ -32,6 +32,20 @@
 				<rev-version>1.0.5</rev-version>
 				<changelog lang="en">
 					<change><![CDATA[tweaked code and install.xml]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-01-22</date>
+				<rev-version>1.0.6</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[added root_path to jquery]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-01-26</date>
+				<rev-version>1.0.7</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[added stay hidden this session field to login form]]></change>
 				</changelog>
 			</entry>
 		</history>
