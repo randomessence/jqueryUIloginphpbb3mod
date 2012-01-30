@@ -3,20 +3,12 @@
           <form method="post" class="" action="{S_LOGIN_ACTION}">
              <fieldset class="">      
           <p>
-             <span class="ui-icon ui-icon-circle-arrow-e" style="float:left; margin:0px 7px 50px 0px;"></span>
-             Username
+             <span class="ui-icon ui-icon-circle-arrow-e" style="float:left;"></span>&nbsp;Username&nbsp;&nbsp;<input class="ui-state-default ui-corner-all" id="username" name="username" size="" value="" title="Please enter your username here" type="text"/>
                 </p>
           <p>
-             <input class="ui-state-default ui-corner-all" id="username" name="username" size="" value="" title="Please enter your username here" type="text"/>
+             <span class="ui-icon ui-icon-circle-arrow-e" style="float:left;"></span>&nbsp;Password&nbsp;&nbsp;<input class="ui-state-default ui-corner-all" id="password" name="password" size="" value="" title="Please enter your password here" type="password"/>
                 </p>
-          <p>
-             <span class="ui-icon ui-icon-circle-arrow-e" style="float:left; margin:0px 7px 50px 0px;"></span>
-             Password
-                </p>
-          <p>   
-             <input class="ui-state-default ui-corner-all" id="password" name="password" size="" value="" title="Please enter your password here" type="password"/>
-                </p>
-          <p class="uibutton"><input type="submit" name="login" value="{L_LOGIN}"/>{S_LOGIN_REDIRECT}<!-- IF S_AUTOLOGIN_ENABLED -->&nbsp;&nbsp;Remember me?&nbsp;<input type="checkbox" name="autologin" id="autologin"/></p><!-- ENDIF -->
+          <p class="uibutton"><input class="" type="submit" name="login" value="{L_LOGIN}"/>{S_LOGIN_REDIRECT}<!-- IF S_AUTOLOGIN_ENABLED -->&nbsp;&nbsp;Remember me?&nbsp;<input type="checkbox" name="autologin" id="autologin"/></p><!-- ENDIF -->
 				<p>
 			Hide my online status this session: <input type="checkbox" name="viewonline" id="viewonline_1"/>
 				</p>
