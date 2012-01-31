@@ -13,7 +13,7 @@
 				<username><![CDATA[randomessence]]></username>
 			</author>
 		</author-group>
-		<mod-version>1.0.7</mod-version>
+		<mod-version>1.0.8</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
@@ -49,7 +49,7 @@
 				</changelog>
 			</entry>
 			<entry>
-				<date>30-01-2012</date>
+				<date>2012-01-30</date>
 				<rev-version>1.0.8</rev-version>
 				<changelog lang="en">
 					<change><![CDATA[tweaked login form]]></change>
