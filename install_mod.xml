@@ -6,7 +6,7 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.9]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.91]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.]]></description>
 		<author-group>
 			<author>
@@ -60,6 +60,13 @@
 				<rev-version>1.0.9</rev-version>
 				<changelog lang="en">
 					<change><![CDATA[updated jquery and jqueryui]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-07-24</date>
+				<rev-version>1.0.9.1</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[updated jqueryUi to .22]]></change>
 				</changelog>
 			</entry>
 		</history>
