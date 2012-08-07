@@ -6,14 +6,8 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.92]]></title>
-		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
-
-once it is installed that is it, refresh you style and it should be visible. 
-
-If you want to change the theme you must edit the styles/ your template /templates/jqueryui/jqueryui.html
-
-and to edit the modal popup to add extra html and stuff then edit the loginfrom.html in the same location]]></description>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.91]]></title>
+		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.]]></description>
 		<author-group>
 			<author>
 				<username><![CDATA[randomessence]]></username>
@@ -75,13 +69,6 @@ and to edit the modal popup to add extra html and stuff then edit the loginfrom.
 					<change><![CDATA[updated jqueryUi to .22]]></change>
 				</changelog>
 			</entry>
-			<entry>
-				<date>2012-08-02</date>
-				<rev-version>1.0.9.2</rev-version>
-				<changelog lang="en">
-					<change><![CDATA[reorganised the code a bit]]></change>
-				</changelog>
-			</entry>
 		</history>
 	</header>
 	<action-group>
@@ -92,22 +79,14 @@ and to edit the modal popup to add extra html and stuff then edit the loginfrom.
 		<open src="styles/prosilver/template/overall_footer.html">
 			<edit>
 				<find><![CDATA[<div id="page-footer">]]></find>
-				<action type="after-add"><![CDATA[<!-- INCLUDE jqueryui/jqueryui.html -->]]></action>
+				<action type="after-add"><![CDATA[<!-- INCLUDE jqueryui/loginform.html -->]]></action>
 			</edit>
 		</open>
 		<open src="styles/prosilver/template/overall_header.html">
 			<edit>
-				<find><![CDATA[<head>]]></find>
-				<action type="after-add"><![CDATA[<script type="text/javascript">
-// ]]>&lt;![CDATA[<![CDATA[
-!window.jQuery && document.write('<script type="text\/javascript" src="{ROOT_PATH}js/jquery/jquery-1.7.2.min.js"><\/script>');
-// ]]>]]&gt;<![CDATA[
-</script>
+				<find><![CDATA[</head>]]></find>
+				<action type="before-add"><![CDATA[<!-- INCLUDE jqueryui/jqueryui.html -->
 ]]></action>
-			</edit>
-			<edit>
-				<find><![CDATA[<body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">]]></find>
-				<action type="after-add"><![CDATA[<!-- INCLUDE jqueryui/loginform.html -->]]></action>
 			</edit>
 			<edit>
 				<find><![CDATA[<li class="icon-logout"><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x">{L_LOGIN_LOGOUT}</a></li>]]></find>
