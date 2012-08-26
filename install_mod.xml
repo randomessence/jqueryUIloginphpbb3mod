@@ -6,7 +6,7 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.95]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.96]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
 once it is installed that is it, refresh you style and it should be visible. 
@@ -18,13 +18,13 @@ and to edit the modal popup to add extra html and stuff then edit the loginfrom.
 
 and find the line
 
-<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/vader/jquery-ui-1.8.22.custom.css' rel='stylesheet' media='screen' />
+<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/vader/jquery-ui-1.8.23.custom.css' rel='stylesheet' media='screen' />
 
 all you need to do is change the name of the css folder (in this line above it is vader)
 
 to any from the list below. so if we chose redmond the new line would look like
 
-<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/redmond/jquery-ui-1.8.22.custom.css' rel='stylesheet' media='screen' />
+<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/redmond/jquery-ui-1.8.23.custom.css' rel='stylesheet' media='screen' />
 
 * a list of styles *
 
@@ -97,11 +97,11 @@ Helpline
 				<username><![CDATA[randomessence]]></username>
 			</author>
 		</author-group>
-		<mod-version>1.0.95</mod-version>
+		<mod-version>1.0.96</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
-			<target-version>3.0.10</target-version>
+			<target-version>3.0.11</target-version>
 		</installation>
 		<history>
 			<entry>
@@ -167,6 +167,13 @@ Helpline
 					<change><![CDATA[added ability for the script to display and accordian and created a special bbcode to use it.]]></change>
 				</changelog>
 			</entry>
+			<entry>
+				<date>2012-08-26</date>
+				<rev-version>1.0.96</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[updated jquery and jqueryui to 1.8.0 and 1.8.23 respectively]]></change>
+				</changelog>
+			</entry>
 		</history>
 	</header>
 	<action-group>
@@ -185,7 +192,7 @@ Helpline
 				<find><![CDATA[<head>]]></find>
 				<action type="after-add"><![CDATA[<script type="text/javascript">
 // ]]>&lt;![CDATA[<![CDATA[
-!window.jQuery && document.write('<script type="text\/javascript" src="{ROOT_PATH}js/jquery/jquery-1.7.2.min.js"><\/script>');
+!window.jQuery && document.write('<script type="text\/javascript" src="{ROOT_PATH}js/jquery/jquery-1.8.0.min.js"><\/script>');
 // ]]>]]&gt;<![CDATA[
 </script>
 ]]></action>
