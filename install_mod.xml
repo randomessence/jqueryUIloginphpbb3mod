@@ -18,16 +18,17 @@ and to edit the modal popup to add extra html and stuff then edit the loginfrom.
 
 and find the line
 
-<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/vader/jquery-ui-1.8.23.custom.css' rel='stylesheet' media='screen' />
+<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/vader/jquery-ui.css' rel='stylesheet' media='screen' />
 
 all you need to do is change the name of the css folder (in this line above it is vader)
 
 to any from the list below. so if we chose redmond the new line would look like
 
-<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/redmond/jquery-ui-1.8.23.custom.css' rel='stylesheet' media='screen' />
+<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/redmond/jquery-ui.css' rel='stylesheet' media='screen' />
 
 * a list of styles *
 
+base
 black-tie
 blitzer
 cupertino
@@ -179,6 +180,8 @@ Helpline
 				<rev-version>1.0.97</rev-version>
 				<changelog lang="en">
 					<change><![CDATA[updated jquery to 1.8.2]]></change>
+					<change><![CDATA[updated jqueryUI to 1.8.24]]></change>
+					<change><![CDATA[bringing mod inline with new update policy]]></change>
 				</changelog>
 			</entry>
 		</history>
@@ -199,7 +202,7 @@ Helpline
 				<find><![CDATA[<head>]]></find>
 				<action type="after-add"><![CDATA[<script type="text/javascript">
 // ]]>&lt;![CDATA[<![CDATA[
-!window.jQuery && document.write('<script type="text\/javascript" src="{ROOT_PATH}js/jquery/jquery-1.8.2.min.js"><\/script>');
+!window.jQuery && document.write('<script type="text\/javascript" src="{ROOT_PATH}js/jquery/jquery.js"><\/script>');
 // ]]>]]&gt;<![CDATA[
 </script>
 ]]></action>
