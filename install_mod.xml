@@ -6,7 +6,7 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.97]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.99]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
 once it is installed that is it, refresh you style and it should be visible. 
@@ -98,7 +98,7 @@ Helpline
 				<username><![CDATA[randomessence]]></username>
 			</author>
 		</author-group>
-		<mod-version>1.0.97</mod-version>
+		<mod-version>1.0.99</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
@@ -182,6 +182,13 @@ Helpline
 					<change><![CDATA[updated jquery to 1.8.2]]></change>
 					<change><![CDATA[updated jqueryUI to 1.8.24]]></change>
 					<change><![CDATA[bringing mod inline with new update policy]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2012-10-15</date>
+				<rev-version>1.0.99</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[updated jquery ui to 1.9.0 , removed support for obsolete theme switcher]]></change>
 				</changelog>
 			</entry>
 		</history>
