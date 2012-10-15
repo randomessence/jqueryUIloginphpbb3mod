@@ -29,14 +29,13 @@ $('.ui-widget-overlay').live('click', function()
 });
 });
 // accordian
-$(function() 
-{
-	$( ".accordion" ).accordion(
-{
-	active: false,
-	autoHeight: false,
-	collapsible: true,
-});
-});
+    $(function() {
+        $( ".accordion" ).accordion({
+            collapsible: true,
+			heightStyle: "content",
+			active: false
+			
+        });
+    });
 // ]]>
 </script>
