@@ -14,7 +14,13 @@ login form.
 
 ![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/form.png)
 
-This is a html form styled by jQueryUI. It has potential.
+This is a html form styled by jQueryUI. **It has potential**. 
+
+So in terms of phpbb 3 edits, the mod is minor. What is does is add the potential to many things such as:
+
+**Style :** many things can be styled and managed using the exisisting Framework. make us of the icon sets, ccs and range of the many themes available.
+
+**Create :** Make use of the many plugins and widgets that jqueryUI comes bundled with. An example of this is the accordian spoiler bbcode i have already created. simple javascript snippets can be made to do some cool stuff.
 
 ##Addons
 
