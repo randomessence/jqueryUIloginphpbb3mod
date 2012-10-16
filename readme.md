@@ -1,6 +1,9 @@
 jQuery UI Modal Login Form
 ==========================
 
+----------
+
+
 This is a phpbb 3 mod that pretty much just loads :
 
 `jQuery 1.8.2`
