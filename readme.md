@@ -1,5 +1,5 @@
 jQuery UI Modal Login Form
-=========
+==========================
 
 This is a phpbb 3 mod that pretty much just loads :
 
@@ -16,14 +16,11 @@ login form.
 
 This is a html form styled by jQueryUI. It has potential.
 
-Addons:
-======
-****
+##Addons
+
 Since this mod loads jquery Ui into Style we can use it for other cool stuff as well. 
 
-Accordion Spoilers.
-=
-****
+##Accordion Spoilers
 
 **With the use of 2 special and custom bbcodes we can create jQuery UI spoilers using the Accordian feature.**
 
@@ -35,15 +32,11 @@ Accordion Spoilers.
 
 **The second BBcode allows to create the full accordion functionality within a phpbb 3 post buy adding extra spoilers.**
 
-****
-
 `[accspoiler=Part 1]some text [accextra=Part 2]some more text[/accextra][/accspoiler]`
 
 ![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/extra1.png)
 
 ![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/extra2.png)
-
-****
 
 **And this is what they look like together in a single post.**
 
