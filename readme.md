@@ -7,12 +7,14 @@ This is a phpbb 3 mod that pretty much just loads :
 
 `jQuery UI 1.9.0`
 
-Into overall header of the Prosilver Style. That is not all it does.
+Into overall header of the Prosilver Style. That is not all it does though.
 
 The main function of this mod is to replace the standard login link with a button that fire a pop up / modal
 login form.
 
-This is a html form styled by jQueryUI.
+![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/form.png)
+
+This is a html form styled by jQueryUI. It has potential.
 
 Addons:
 ======
@@ -24,6 +26,10 @@ Accordion Spoilers.
 With the use of 2 special and custom bbcodes we can create jQuery UI spoilers using the Accordian feature.
 
 `[accspoiler=Secret Stuff]some text[/accspoiler]`
+
+![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/blob/master/contrib/examples/spoiler1.png)
+
+![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/blob/master/contrib/examples/spoiler2.png)
 
 The second BBcode allows to create the full accordion functionality within a phpbb 3 post buy adding extra spoilers.
 
