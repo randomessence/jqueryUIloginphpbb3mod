@@ -16,12 +16,13 @@ once it is installed that is it, refresh you style and it should be visible with
 25 default styles included. Change them in the ACP/General/Board Settings
 
 Easily add custom styled themes.]]></description>
-		<author-notes lang="en"><![CDATA[some code borrowed and altered from this mod
+		<author-notes lang="en"><![CDATA[some code borrowed and altered from this mod: [url]https://www.phpbb.com/customise/db/mod/forum_favicon/[/url]
 
-https://www.phpbb.com/customise/db/mod/forum_favicon/]]></author-notes>
+For Usage Info (such as bbcodes) see the [url=https://github.com/randomessence/jqueryUIloginphpbb3mod]Github page readme[/url]]]></author-notes>
 		<author-group>
 			<author>
 				<username><![CDATA[randomessence]]></username>
+				<homepage><![CDATA[https://github.com/randomessence/jqueryUIloginphpbb3mod]]></homepage>
 			</author>
 		</author-group>
 		<mod-version>1.1.0</mod-version>
@@ -121,7 +122,7 @@ https://www.phpbb.com/customise/db/mod/forum_favicon/]]></author-notes>
 				<date>2012-10-14</date>
 				<rev-version>1.1.0</rev-version>
 				<changelog lang="en">
-					<change><![CDATA[added a way to chaneg theme in acp.]]></change>
+					<change><![CDATA[added a way to change theme in acp.]]></change>
 				</changelog>
 			</entry>
 		</history>

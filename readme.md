@@ -94,7 +94,7 @@ Since this mod loads jquery Ui into Style we can use it for other cool stuff as 
 
 **HelpLine**
 
-[accspoiler=Title goes here}]spoiler text goes here[/accspoiler]
+`[accspoiler=Title goes here}]spoiler text goes here[/accspoiler]`
 
 ![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/spoiler1.png)
 
@@ -115,7 +115,7 @@ Since this mod loads jquery Ui into Style we can use it for other cool stuff as 
 
 **Helpline**
 
- [accspoiler=] [accspoiler=Title goes here}]spoiler text goes here[/accspoiler]  [/accspoiler]
+ `[accspoiler=] [accspoiler=Title goes here}]spoiler text goes here[/accspoiler]  [/accspoiler]`
 
 ![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/extra1.png)
 
