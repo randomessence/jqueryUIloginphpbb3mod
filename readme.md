@@ -27,9 +27,13 @@ So in terms of phpbb 3 edits, the mod is minor. What is does is add the potentia
 
 ##Theme Changing
 
-with the release of v1.1.0 you can manually eneter a value in the acp for the theme folder containing the .css
+with the release of v1.1.0 you can manually enter a value in the acp for the theme folder containing the .css
 
 ![](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/acp.png)
+
+This works on a simple principle. You are specifiying the name of the theme folder located in the `js/jqueryui/css/` directory. There are 25 theme folders included ( all the default ones ) . 
+
+All the included CSS files are generically named as `jquery-ui.css` and not `jquery-ui-1.9.0.custom.css`. You need to create your custom theme, download, unzip and rename the css of your choosing (minified or not) to `jquery-ui.css` then upload your folder to the previously stated directory. If your theme folder containging your `jqueryu-ui.css` is named `myfancytheme` then then value you would enter in the ACP/General/Board Settings page would be: myfancytheme
 
 ##Addons
 
