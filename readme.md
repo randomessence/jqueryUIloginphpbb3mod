@@ -25,6 +25,12 @@ So in terms of phpbb 3 edits, the mod is minor. What is does is add the potentia
 
 **Create :** Make use of the many plugins and widgets that jqueryUI comes bundled with. An example of this is the accordian spoiler bbcode i have already created. simple javascript snippets can be made to do some cool stuff.
 
+##Theme Changing
+
+with the release of v1.1.0 you can manually eneter a value in the acp for the theme folder containing the .css
+
+![](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/acp.png)
+
 ##Addons
 
 Since this mod loads jquery Ui into Style we can use it for other cool stuff as well. 
