@@ -6,20 +6,25 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.0.99]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.0]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
-once it is installed that is it, refresh you style and it should be visible. 
+This mod will load jquery 1.8.2 and juqeryui 1.9.0 onto you board. Both are required to work with this mod.
 
-If you want to change the theme you must edit the styles/ your template /templates/jqueryui/jqueryui.html
+once it is installed that is it, refresh you style and it should be visible with the default cupertino style. 
 
-and to edit the modal popup to add extra html and stuff then edit the loginfrom.html in the same location]]></description>
+25 default styles included. Change them in the ACP/General/Board Settings
+
+Easily add custom styled themes.]]></description>
+		<author-notes lang="en"><![CDATA[some code borrowed and altered from this mod
+
+https://www.phpbb.com/customise/db/mod/forum_favicon/]]></author-notes>
 		<author-group>
 			<author>
 				<username><![CDATA[randomessence]]></username>
 			</author>
 		</author-group>
-		<mod-version>1.0.99</mod-version>
+		<mod-version>1.1.0</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
@@ -112,13 +117,41 @@ and to edit the modal popup to add extra html and stuff then edit the loginfrom.
 					<change><![CDATA[updated jquery ui to 1.9.0 , removed support for obsolete theme switcher]]></change>
 				</changelog>
 			</entry>
+			<entry>
+				<date>2012-10-14</date>
+				<rev-version>1.1.0</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[added a way to chaneg theme in acp.]]></change>
+				</changelog>
+			</entry>
 		</history>
 	</header>
 	<action-group>
+		<sql><![CDATA[INSERT INTO `phpbb_config` (`config_name`, `config_value`, `is_dynamic`) VALUES('jqui_theme', 'cupertino', 0);]]></sql>
 		<copy>
 			<file from="root/*.*" to="*.*"/>
 			<file from="root/styles/prosilver/template/jqueryui/*.*" to="styles/prosilver/template/jqueryui/*.*"/>
 		</copy>
+		<open src="includes/functions.php">
+			<edit>
+				<find><![CDATA[		'SITE_DESCRIPTION'				=> $config['site_desc'],]]></find>
+				<action type="after-add"><![CDATA[		'JQUI_THEME'					=> $config['jqui_theme'],]]></action>
+			</edit>
+		</open>
+		<open src="includes/acp/acp_board.php">
+			<edit>
+				<find><![CDATA[						'site_desc'				=> array('lang' => 'SITE_DESC',				'validate' => 'string',	'type' => 'text:40:255', 'explain' => false),]]></find>
+				<action type="after-add"><![CDATA[						'jqui_theme'			=> array('lang' => 'JQUI_THEME_NAME',		'validate' => 'string',	'type' => 'text:40:255', 'explain' => true),]]></action>
+			</edit>
+		</open>
+		<open src="language/en/acp/board.php">
+			<edit>
+				<find><![CDATA[	'JAB_USERNAME_EXPLAIN'		=> 'Specify a registered username or a valid JID. The username will not be checked for validity. If you only specify a username, then your JID will be the username and the server you specified above. Else, specify a valid JID, for example user@jabber.org.',]]></find>
+				<action type="after-add"><![CDATA[// jQuery UI Theme
+	'JQUI_THEME_NAME'				=> 'jQueryUI Theme',
+	'JQUI_THEME_NAME_EXPLAIN'		=> 'To change the theme to one of the included themes you need to specify the theme folder name here. To specify a custom theme you must rename css files to jquery-ui.css then upload your custom theme folder to the js/jqueryui/css/ folder. Then specify the name of that folder here.',]]></action>
+			</edit>
+		</open>
 		<open src="styles/prosilver/template/overall_footer.html">
 			<edit>
 				<find><![CDATA[</body>]]></find>
@@ -161,7 +194,9 @@ to any from the list below. so if we chose redmond the new line would look like
 
 <link type='text/css' href='{ROOT_PATH}js/jqueryui/css/redmond/jquery-ui.css' rel='stylesheet' media='screen' />
 
-* a list of styles *
+Change themes by entering your preferred folder name into the field in the board features page of the ACP/General/Board Settings
+
+* a list of styles by folder name*
 
 base
 black-tie
