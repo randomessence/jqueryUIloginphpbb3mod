@@ -35,6 +35,38 @@ This works on a simple principle. You are specifiying the name of the theme fold
 
 All the included CSS files are generically named as `jquery-ui.css` and not `jquery-ui-1.9.0.custom.css`. You need to create your custom theme, download, unzip and rename the css of your choosing (minified or not) to `jquery-ui.css` then upload your folder to the previously stated directory. If your theme folder containging your `jqueryu-ui.css` is named `myfancytheme` then then value you would enter in the ACP/General/Board Settings page would be: myfancytheme
 
+**Theme Folders included:**
+
+- base
+- black-tie
+- blitzer
+- cupertino
+- dark-hive
+- dot-luv
+- eggplant
+- excite-bike
+- flick
+- hot-sneaks
+- humanity
+- le-frog
+- mint-choc
+- overcast
+- pepper-grinder
+- redmond
+- smoothness
+- south-street
+- start
+- sunny
+- swanky-purse
+- trontastic
+- ui-darkness
+- ui-lightness
+- vader
+
+**For Previews or to roll your own theme go here**
+
+[http://jqueryui.com/themeroller/](http://jqueryui.com/themeroller/)
+
 ##Addons
 
 Since this mod loads jquery Ui into Style we can use it for other cool stuff as well. 
@@ -43,7 +75,26 @@ Since this mod loads jquery Ui into Style we can use it for other cool stuff as 
 
 **With the use of 2 special and custom bbcodes we can create jQuery UI spoilers using the Accordian feature.**
 
+**USAGE**
+
 `[accspoiler=Secret Stuff]some text[/accspoiler]`
+
+**HTML Replace**
+
+```
+<div>
+<div class="accordion">
+<h1><a href="#">{TEXT1}</a></h1>
+<div>
+{TEXT2}
+</div>
+</div>
+</div>
+```
+
+**HelpLine**
+
+[accspoiler=Title goes here}]spoiler text goes here[/accspoiler]
 
 ![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/spoiler1.png)
 
@@ -52,6 +103,19 @@ Since this mod loads jquery Ui into Style we can use it for other cool stuff as 
 **The second BBcode allows to create the full accordion functionality within a phpbb 3 post buy adding extra spoilers.**
 
 `[accspoiler=Part 1]some text [accextra=Part 2]some more text[/accextra][/accspoiler]`
+
+**HTML Replace**
+
+```
+</div>
+<h1><a href="#">{TEXT1}</a></h1>
+<div>
+{TEXT2}
+```
+
+**Helpline**
+
+ [accspoiler=] [accspoiler=Title goes here}]spoiler text goes here[/accspoiler]  [/accspoiler]
 
 ![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/extra1.png)
 
