@@ -75,9 +75,13 @@ Since this mod loads jquery Ui into Style we can use it for other cool stuff as 
 
 **With the use of 2 special and custom bbcodes we can create jQuery UI spoilers using the Accordian feature.**
 
-**USAGE**
+**Example**
 
 `[accspoiler=Secret Stuff]some text[/accspoiler]`
+
+**Usage**
+
+`[accspoiler={TEXT1}]{TEXT2}[/accspoiler]`
 
 **HTML Replace**
 
@@ -94,7 +98,7 @@ Since this mod loads jquery Ui into Style we can use it for other cool stuff as 
 
 **HelpLine**
 
-`[accspoiler=Title goes here}]spoiler text goes here[/accspoiler]`
+`[accspoiler=Title goes here]spoiler text goes here[/accspoiler]`
 
 ![alt text](https://raw.github.com/randomessence/jqueryUIloginphpbb3mod/master/contrib/examples/spoiler1.png)
 
@@ -102,7 +106,13 @@ Since this mod loads jquery Ui into Style we can use it for other cool stuff as 
 
 **The second BBcode allows to create the full accordion functionality within a phpbb 3 post buy adding extra spoilers.**
 
+**Example**
+
 `[accspoiler=Part 1]some text [accextra=Part 2]some more text[/accextra][/accspoiler]`
+
+*Usage**
+
+`[accextra={TEXT1}]{TEXT2}[/accextra]`
 
 **HTML Replace**
 
