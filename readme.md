@@ -110,7 +110,7 @@ Since this mod loads jquery Ui into Style we can use it for other cool stuff as 
 
 `[accspoiler=Part 1]some text [accextra=Part 2]some more text[/accextra][/accspoiler]`
 
-*Usage**
+**Usage**
 
 `[accextra={TEXT1}]{TEXT2}[/accextra]`
 
