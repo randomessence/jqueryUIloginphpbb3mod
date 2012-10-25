@@ -128,7 +128,7 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 		</history>
 	</header>
 	<action-group>
-		<sql><![CDATA[INSERT INTO `phpbb_config` (`config_name`, `config_value`, `is_dynamic`) VALUES('jqui_theme', 'cupertino', 0);]]></sql>
+		<sql><![CDATA[INSERT IGNORE INTO `phpbb_config` (`config_name`, `config_value`, `is_dynamic`) VALUES('jqui_theme', 'cupertino', 0);]]></sql>
 		<copy>
 			<file from="root/*.*" to="*.*"/>
 			<file from="root/styles/prosilver/template/jqueryui/*.*" to="styles/prosilver/template/jqueryui/*.*"/>
