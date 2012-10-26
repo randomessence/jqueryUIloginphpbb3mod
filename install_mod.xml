@@ -141,8 +141,8 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 		</open>
 		<open src="includes/acp/acp_board.php">
 			<edit>
-				<find><![CDATA[						'site_desc'				=> array('lang' => 'SITE_DESC',				'validate' => 'string',	'type' => 'text:40:255', 'explain' => false),]]></find>
-				<action type="after-add"><![CDATA[						'jqui_theme'			=> array('lang' => 'JQUI_THEME_NAME',		'validate' => 'string',	'type' => 'text:40:255', 'explain' => true),]]></action>
+				<find><![CDATA[						'legend2'				=> 'ACP_LOAD_SETTINGS',]]></find>
+				<action type="before-add"><![CDATA[						'jqui_theme'			=> array('lang' => 'JQUI_THEME_NAME',		'validate' => 'string',	'type' => 'text:40:255', 'explain' => true),]]></action>
 			</edit>
 		</open>
 		<open src="language/en/acp/board.php">
