@@ -183,19 +183,7 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 <!-- IF not S_USER_LOGGED_IN --><li class="uibutton"><button id="opener" class="">Sign In</button></li><!-- ENDIF -->]]></action>
 			</edit>
 		</open>
-		<diy-instructions lang="en"><![CDATA[To change to another style you must edit the styles / (relevant template path) /template/jqueryui/jqueryui.html
-
-and find the line
-
-<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/vader/jquery-ui.css' rel='stylesheet' media='screen' />
-
-all you need to do is change the name of the css folder (in this line above it is vader)
-
-to any from the list below. so if we chose redmond the new line would look like
-
-<link type='text/css' href='{ROOT_PATH}js/jqueryui/css/redmond/jquery-ui.css' rel='stylesheet' media='screen' />
-
-Change themes by entering your preferred folder name into the field in the board features page of the ACP/General/Board Settings
+		<diy-instructions lang="en"><![CDATA[Change themes by entering your preferred folder name into the field in the board features page of the ACP/General/Board Features
 
 * a list of styles by folder name*
 
