@@ -67,6 +67,35 @@ All the included CSS files are generically named as `jquery-ui.css` and not `jqu
 
 [http://jqueryui.com/themeroller/](http://jqueryui.com/themeroller/)
 
+##CSS
+
+in each theme folder there is a jquery-ui.css
+
+This CSS relates to the padding of the buttons when styling out LOGIN/LOGOUT link.
+
+`/*button text element */`
+
+`.ui-button-text-only .ui-button-text { padding: .4em 1em; }`
+
+i use (and will update the css files soon)
+
+`.ui-button-text-only .ui-button-text { padding: .3em 1em; }`
+
+This CSS relates to tooltip thingies if there is a conflict
+
+```css
+.ui-tooltip {
+	padding:8px;
+	position:absolute;
+	z-index:9999;
+	-o-box-shadow: 0 0 5px #aaa;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+```
+
+
 ##Addons
 
 Since this mod loads jquery Ui into Style we can use it for other cool stuff as well. 
