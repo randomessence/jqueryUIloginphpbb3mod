@@ -9,7 +9,7 @@
 		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.1]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
-This mod will load jquery 1.8.2 and juqeryui 1.9.0 onto you board. Both are required to work with this mod.
+This mod will load jquery 1.8.2 and juqeryui 1.9.1 onto you board. Both are required to work with this mod.
 
 once it is installed that is it, refresh you style and it should be visible with the default cupertino style. 
 
@@ -59,10 +59,6 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 			<edit>
 				<find><![CDATA[<body class="{S_CONTENT_DIRECTION}">]]></find>
 				<action type="after-add"><![CDATA[<!-- INCLUDE jqueryui/loginform.html -->]]></action>
-			</edit>
-			<edit>
-				<find><![CDATA[				<!-- IF not S_IS_BOT --><a href="{U_LOGIN_LOGOUT}"><img src="{T_THEME_PATH}/images/icon_mini_login.gif" width="12" height="13" alt="*" /> {L_LOGIN_LOGOUT}</a>&nbsp;<!-- ENDIF -->]]></find>
-				<action type="replace-with"><![CDATA[				<!-- IF not S_IS_BOT --><a class="uibutton" href="{U_LOGIN_LOGOUT}"><img src="{T_THEME_PATH}/images/icon_mini_login.gif" width="12" height="13" alt="*" /> {L_LOGIN_LOGOUT}</a>&nbsp;<!-- ENDIF -->]]></action>
 			</edit>
 		</open>
 	</action-group>
