@@ -1,3 +1,3 @@
-Jquery 1.8.2
+Jquery 1.8.3
 
-Jquery UI 1.9.0
+Jquery UI 1.9.2
