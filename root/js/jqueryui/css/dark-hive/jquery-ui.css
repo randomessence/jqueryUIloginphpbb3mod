@@ -32,12 +32,12 @@
 /* Overlays */
 .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.ui-accordion .ui-accordion-header { display: block; cursor: pointer; position: relative; margin-top: 2px; padding: .5em .5em .5em .7em; zoom: 1; }
+.ui-accordion .ui-accordion-header { display: block; cursor: pointer; position: relative; margin-top: 0px; padding: .2em .2em .2em .2em; zoom: 1; }
 .ui-accordion .ui-accordion-icons { padding-left: 2.2em; }
 .ui-accordion .ui-accordion-noicons { padding-left: .7em; }
 .ui-accordion .ui-accordion-icons .ui-accordion-icons { padding-left: 2.2em; }
 .ui-accordion .ui-accordion-header .ui-accordion-header-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
-.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; overflow: auto; zoom: 1; }
+.ui-accordion .ui-accordion-content { padding: 0em 0.2em 0.2em 0.2em; border-top: 1; overflow: auto; zoom: 1; }
 
 .ui-autocomplete {
 	position: absolute;
@@ -58,7 +58,7 @@ button.ui-button-icons-only { width: 3.7em; }
 
 /*button text element */
 .ui-button .ui-button-text { display: block; line-height: 1.4;  }
-.ui-button-text-only .ui-button-text { padding: .4em 1em; }
+.ui-button-text-only .ui-button-text { padding: .3em 1em; }
 .ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
 .ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
 .ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 2.1em .4em 1em; }
