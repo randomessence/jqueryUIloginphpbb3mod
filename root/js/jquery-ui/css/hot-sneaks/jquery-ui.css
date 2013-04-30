@@ -1162,7 +1162,7 @@ body .ui-tooltip {
 /* Overlays */
 .ui-widget-overlay {
 	background: #f7f7ba url(images/ui-bg_white-lines_85_f7f7ba_40x100.png) 50% 50% repeat;
-	opacity: .8;
+	opacity: .9;
 	filter: Alpha(Opacity=80);
 }
 .ui-widget-shadow {

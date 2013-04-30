@@ -1161,8 +1161,8 @@ body .ui-tooltip {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #eeeeee url(images/ui-bg_flat_0_eeeeee_40x100.png) 50% 50% repeat-x;
-	opacity: .8;
+	background: #eeeeee url(images/ui-bg_flat_0_eeeeee_40x100.png) 50% 50% repeat;
+	opacity: .9;
 	filter: Alpha(Opacity=80);
 }
 .ui-widget-shadow {

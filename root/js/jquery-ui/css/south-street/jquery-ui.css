@@ -1161,7 +1161,7 @@ body .ui-tooltip {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #2b2922 url(images/ui-bg_inset-soft_15_2b2922_1x100.png) 50% bottom repeat-x;
+	background: #2b2922 url(images/ui-bg_inset-soft_15_2b2922_1x100.png) 50% bottom repeat;
 	opacity: .9;
 	filter: Alpha(Opacity=90);
 }
