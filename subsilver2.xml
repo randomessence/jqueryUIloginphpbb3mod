@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
 <!--NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.-->
 <!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.\nAlthough MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD.\nNo support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
-<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phpbb.com/mods/xml/modx-1.2.5.xsd">
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpbb.com/mods/xml/modx-1.2.6.xsd">
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.3]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.4]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
 This mod will load jquery 1.8.3 and juqeryui 1.9.2 onto you board. Both are required to work with this mod.
@@ -34,12 +34,12 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 	</header>
 	<action-group>
 		<copy>
-			<file from="root/styles/subsilver2/template/jqueryui/*.*" to="styles/subsilver2/template/jqueryui/*.*"/>
+			<file from="root/styles/subsilver2/template/jquery-ui/*.*" to="styles/subsilver2/template/jquery-ui/*.*"/>
 		</copy>
 		<open src="styles/subsilver2/template/overall_footer.html">
 			<edit>
 				<find><![CDATA[</body>]]></find>
-				<action type="before-add"><![CDATA[<!-- INCLUDE jqueryui/jqueryui.html -->]]></action>
+				<action type="before-add"><![CDATA[<!-- INCLUDE jquery-ui/jquery-ui.html -->]]></action>
 			</edit>
 		</open>
 		<open src="styles/subsilver2/template/overall_header.html">
@@ -54,11 +54,11 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 			</edit>
 			<edit>
 				<find><![CDATA[</head>]]></find>
-				<action type="before-add"><![CDATA[<!-- INCLUDE jqueryui/jqueryUIheader.html -->]]></action>
+				<action type="before-add"><![CDATA[<!-- INCLUDE jquery-ui/jquery-ui-header.html -->]]></action>
 			</edit>
 			<edit>
 				<find><![CDATA[<body class="{S_CONTENT_DIRECTION}">]]></find>
-				<action type="after-add"><![CDATA[<!-- INCLUDE jqueryui/loginform.html -->]]></action>
+				<action type="after-add"><![CDATA[<!-- INCLUDE jquery-ui/login-form.html -->]]></action>
 			</edit>
 		</open>
 	</action-group>

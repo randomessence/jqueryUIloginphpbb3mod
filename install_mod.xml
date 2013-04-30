@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
 <!--NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.-->
 <!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.\nAlthough MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD.\nNo support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
-<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phpbb.com/mods/xml/modx-1.2.5.xsd">
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpbb.com/mods/xml/modx-1.2.6.xsd">
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.3]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.4]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
 This mod will load jquery 1.8.3 and juqeryui 1.9.2 onto you board. Both are required to work with this mod.
@@ -147,6 +147,13 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 					<change><![CDATA[changing language edits to prevent conflicts]]></change>
 				</changelog>
 			</entry>
+			<entry>
+				<date>2013-04-30</date>
+				<rev-version>1.1.4</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[updated jquery and jquery-ui 2.0.0 and 1.10.1. slight change to the folder names]]></change>
+				</changelog>
+			</entry>
 		</history>
 		<link-group>
 			<link type="template" href="subsilver2.xml" lang="en">subsilver2</link>
@@ -155,8 +162,10 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 	</header>
 	<action-group>
 		<copy>
-			<file from="root/*.*" to="*.*"/>
-			<file from="root/styles/prosilver/template/jqueryui/*.*" to="styles/prosilver/template/jqueryui/*.*"/>
+			<file from="root/js/jquery/*.*" to="js/jquery/*.*"/>
+			<file from="root/js/jquery-ui/js/*.*" to="js/jquery-ui/js/*.*"/>
+			<file from="root/js/jquery-ui/css/*.*" to="root/js/jquery-ui/css/*.*"/>
+			<file from="root/styles/prosilver/template/jquery-ui/*.*" to="styles/prosilver/template/jquery-ui/*.*"/>
 		</copy>
 		<open src="includes/functions.php">
 			<edit>
@@ -194,7 +203,7 @@ $lang = array_merge($lang, array(
 		<open src="styles/prosilver/template/overall_footer.html">
 			<edit>
 				<find><![CDATA[</body>]]></find>
-				<action type="before-add"><![CDATA[<!-- INCLUDE jqueryui/jqueryui.html -->]]></action>
+				<action type="before-add"><![CDATA[<!-- INCLUDE jquery-ui/jquery-ui.html -->]]></action>
 			</edit>
 		</open>
 		<open src="styles/prosilver/template/overall_header.html">
@@ -209,11 +218,11 @@ $lang = array_merge($lang, array(
 			</edit>
 			<edit>
 				<find><![CDATA[</head>]]></find>
-				<action type="before-add"><![CDATA[<!-- INCLUDE jqueryui/jqueryUIheader.html -->]]></action>
+				<action type="before-add"><![CDATA[<!-- INCLUDE jquery-ui/jquery-ui-header.html -->]]></action>
 			</edit>
 			<edit>
 				<find><![CDATA[<body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">]]></find>
-				<action type="after-add"><![CDATA[<!-- INCLUDE jqueryui/loginform.html -->]]></action>
+				<action type="after-add"><![CDATA[<!-- INCLUDE jquery-ui/login-form.html -->]]></action>
 			</edit>
 			<edit>
 				<find><![CDATA[<li class="icon-logout"><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x">{L_LOGIN_LOGOUT}</a></li>]]></find>
