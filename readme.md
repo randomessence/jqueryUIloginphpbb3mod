@@ -8,7 +8,7 @@ This is a phpbb 3 mod that pretty much just loads :
 
 `jQuery 2.0.0` (1.9.1 works but not included)
 
-`jQuery UI 1.10.1` With custom button padding applied.
+`jQuery UI 1.10.1` With custom button padding and modal stripe fix applied. These are documented [here](https://github.com/randomessence/jqueryUIloginphpbb3mod#css)
 
 Into overall header of the Prosilver Style. That is not all it does though.
 
@@ -105,13 +105,13 @@ If you have a white (or coloured stripe) across the middle of your screen when a
 	filter: Alpha(Opacity=30);
 }
 ```
-Change to `repeat-x` to `repeat`:
+Change to `repeat-x` to `repeat` and opacity to 0.9:
 
 ```css
 /* Overlays */
 .ui-widget-overlay {
-	background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
-	opacity: .3;
+	background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat;
+	opacity: .9;
 	filter: Alpha(Opacity=30);
 }
 ```
