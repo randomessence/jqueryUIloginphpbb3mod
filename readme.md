@@ -6,9 +6,9 @@ jQuery UI Modal Login Form
 
 This is a phpbb 3 mod that pretty much just loads :
 
-`jQuery 1.8.2`
+`jQuery 2.0.0` (1.9.1 works but not included)
 
-`jQuery UI 1.9.0`
+`jQuery UI 1.10.1` With custom button padding applied.
 
 Into overall header of the Prosilver Style. That is not all it does though.
 
