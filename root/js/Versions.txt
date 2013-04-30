@@ -1,3 +1,2 @@
-Jquery 1.9.1
-
-Jquery UI 1.10.0
+Jquery 2.0.0
+Jquery UI 1.10.1
