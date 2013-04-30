@@ -95,6 +95,26 @@ This CSS relates to tooltip thingies if there is a conflict
 }
 ```
 
+If you have a white (or coloured stripe) across the middle of your screen when activating the modal login this is the section of the `css/theme/jquery-ui.css` you need to edit.
+
+```css
+/* Overlays */
+.ui-widget-overlay {
+	background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30);
+}
+```
+Change to `repeat-x` to `repeat`:
+
+```css
+/* Overlays */
+.ui-widget-overlay {
+	background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30);
+}
+```
 
 ##Addons
 
