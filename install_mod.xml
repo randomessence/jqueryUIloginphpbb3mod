@@ -6,7 +6,7 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.4]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.5]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
 This mod will load jquery 1.8.3 and juqeryui 1.9.2 onto you board. Both are required to work with this mod.
@@ -25,7 +25,7 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 				<homepage><![CDATA[https://github.com/randomessence/jqueryUIloginphpbb3mod]]></homepage>
 			</author>
 		</author-group>
-		<mod-version>1.1.4</mod-version>
+		<mod-version>1.1.5</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
@@ -44,6 +44,13 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 				<rev-version>1.0.5</rev-version>
 				<changelog lang="en">
 					<change><![CDATA[tweaked code and install.xml]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2013-05-27</date>
+				<rev-version>1.0.5</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[jquery ui 1.10.3 and jquery migrate]]></change>
 				</changelog>
 			</entry>
 			<entry>
@@ -214,7 +221,7 @@ $lang = array_merge($lang, array(
 !window.jQuery && document.write('<script type="text\/javascript" src="{ROOT_PATH}js/jquery/jquery.js"><\/script>');
 // ]]>]]&gt;<![CDATA[
 </script>
-<script src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script>
+<script src="{ROOT_PATH}js/jquery/migrate.js"></script>
 ]]></action>
 			</edit>
 			<edit>
