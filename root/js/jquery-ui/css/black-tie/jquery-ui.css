@@ -1163,8 +1163,8 @@ body .ui-tooltip {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #aaaaaa url(images/ui-bg_highlight-hard_40_aaaaaa_1x100.png) 50% top repeat-x;
-	opacity: .3;
+	background: #aaaaaa url(images/ui-bg_highlight-hard_40_aaaaaa_1x100.png) 50% top repeat;
+	opacity: .9;
 	filter: Alpha(Opacity=30);
 }
 .ui-widget-shadow {

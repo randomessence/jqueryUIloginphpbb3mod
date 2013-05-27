@@ -1164,7 +1164,7 @@ body .ui-tooltip {
 /* Overlays */
 .ui-widget-overlay {
 	background: #372806 url(images/ui-bg_diamond_20_372806_10x8.png) 50% 50% repeat;
-	opacity: .8;
+	opacity: .9;
 	filter: Alpha(Opacity=80);
 }
 .ui-widget-shadow {
