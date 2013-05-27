@@ -3,12 +3,13 @@ jQuery UI Modal Login Form
 
 ----------
 
-
 This is a phpbb 3 mod that pretty much just loads :
 
 `jQuery 2.0.0` (1.9.1 works but not included)
 
-`jQuery UI 1.10.1` With custom button padding and modal stripe fix applied. These are documented [here](https://github.com/randomessence/jqueryUIloginphpbb3mod#css)
+
+
+`jQuery UI 1.10.3` With custom button padding and modal stripe fix applied. These are documented [here](https://github.com/randomessence/jqueryUIloginphpbb3mod#css)
 
 Into overall header of the Prosilver Style. That is not all it does though.
 
@@ -25,7 +26,7 @@ So in terms of phpbb 3 edits, the mod is minor. What is does is add the potentia
 
 **Create :** Make use of the many plugins and widgets that jqueryUI comes bundled with. An example of this is the accordian spoiler bbcode i have already created. simple javascript snippets can be made to do some cool stuff.
 
-##Theme Changing
+### Theme Changing ###
 
 with the release of v1.1.0 you can manually enter a value in the acp for the theme folder containing the .css
 
@@ -67,7 +68,7 @@ All the included CSS files are generically named as `jquery-ui.css` and not `jqu
 
 [http://jqueryui.com/themeroller/](http://jqueryui.com/themeroller/)
 
-##CSS
+### CSS ###
 
 in each theme folder there is a jquery-ui.css
 
