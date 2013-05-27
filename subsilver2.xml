@@ -9,11 +9,11 @@
 		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.5]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
-This mod will load jquery 1.8.3 and juqeryui 1.9.2 onto you board. Both are required to work with this mod.
+This mod will load jquery 2.0.1 and juqeryui 1.10.3 onto you board. Both are required to work with this mod.
 
 once it is installed that is it, refresh you style and it should be visible with the default cupertino style. 
 
-25 default styles included. Change them in the ACP/General/Board Settings
+24 default styles included. Change them in the ACP/General/Board Settings
 
 Easily add custom styled themes.]]></description>
 		<author-notes lang="en"><![CDATA[some code borrowed and altered from this mod: https://www.phpbb.com/customise/db/mod/forum_favicon/
