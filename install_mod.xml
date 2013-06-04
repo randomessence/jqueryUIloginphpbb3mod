@@ -171,7 +171,7 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 		<copy>
 			<file from="root/js/jquery/*.*" to="js/jquery/*.*"/>
 			<file from="root/js/jquery-ui/js/*.*" to="js/jquery-ui/js/*.*"/>
-			<file from="root/js/jquery-ui/css/*.*" to="root/js/jquery-ui/css/*.*"/>
+			<file from="root/js/jquery-ui/css/*.*" to="js/jquery-ui/css/*.*"/>
 			<file from="root/styles/prosilver/template/jquery-ui/*.*" to="styles/prosilver/template/jquery-ui/*.*"/>
 		</copy>
 		<open src="includes/functions.php">
