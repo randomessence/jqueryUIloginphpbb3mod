@@ -6,7 +6,7 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.5]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.6]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
 This mod will load jquery 2.0.1 and juqeryui 1.10.3 onto you board. Both are required to work with this mod.
@@ -25,7 +25,7 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 				<homepage><![CDATA[https://github.com/randomessence/jqueryUIloginphpbb3mod]]></homepage>
 			</author>
 		</author-group>
-		<mod-version>1.1.5</mod-version>
+		<mod-version>1.1.6</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
@@ -161,6 +161,13 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 					<change><![CDATA[jquery 2.0.1 jquery ui 1.10.3 and jquery migrate]]></change>
 				</changelog>
 			</entry>
+			<entry>
+				<date>2013-06-07</date>
+				<rev-version>1.1.6</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[no login form after user logged in to avoid conflicts]]></change>
+				</changelog>
+			</entry>
 		</history>
 		<link-group>
 			<link type="template" href="subsilver2.xml" lang="en">subsilver2</link>
@@ -230,7 +237,9 @@ $lang = array_merge($lang, array(
 			</edit>
 			<edit>
 				<find><![CDATA[<body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">]]></find>
-				<action type="after-add"><![CDATA[<!-- INCLUDE jquery-ui/login-form.html -->]]></action>
+				<action type="after-add"><![CDATA[<!-- IF not S_USER_LOGGED_IN -->
+<!-- INCLUDE jquery-ui/login-form.html -->
+<!-- ENDIF -->]]></action>
 			</edit>
 			<edit>
 				<find><![CDATA[<li class="icon-logout"><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x">{L_LOGIN_LOGOUT}</a></li>]]></find>

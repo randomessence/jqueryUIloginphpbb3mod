@@ -6,7 +6,7 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.5]]></title>
+		<title lang="en"><![CDATA[jqueryUI Login modal 1.1.6]]></title>
 		<description lang="en"><![CDATA[installs a simple jquery based modal login dialogue using jQueryUI. it is highly theme-able and lightweight.
 
 This mod will load jquery 2.0.1 and juqeryui 1.10.3 onto you board. Both are required to work with this mod.
@@ -25,7 +25,7 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 				<homepage><![CDATA[https://github.com/randomessence/jqueryUIloginphpbb3mod]]></homepage>
 			</author>
 		</author-group>
-		<mod-version>1.1.5</mod-version>
+		<mod-version>1.1.6</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
@@ -59,7 +59,9 @@ For Usage Info (such as bbcodes) see the Github page readme in the authors url l
 			</edit>
 			<edit>
 				<find><![CDATA[<body class="{S_CONTENT_DIRECTION}">]]></find>
-				<action type="after-add"><![CDATA[<!-- INCLUDE jquery-ui/login-form.html -->]]></action>
+				<action type="after-add"><![CDATA[<!-- IF not S_USER_LOGGED_IN -->
+<!-- INCLUDE jquery-ui/login-form.html -->
+<!-- ENDIF -->]]></action>
 			</edit>
 		</open>
 	</action-group>
